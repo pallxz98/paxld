@@ -1,0 +1,96 @@
+/*Start of Global Style*/
+.fa-facebook-official:hover { color: #3b5998; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; }
+.fa-instagram:hover { color: #e1306c; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; }
+.fa-github:hover { color: #4078c0; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; }
+.fa-google-plus-official:hover { color: #dd4b39; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; }
+.fa-linkedin:hover { color: #0e76a8; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; }
+body { overflow-x: hidden; }
+/*Start of Upperbar*/
+.upperbar { background-color: #e9ecef; height: 1.8rem; }
+.upperbar p { font-weight: bold; }
+.upperbar .social { font-size: 1.3rem; float: right; }
+.upperbar .social i { margin-right: 0.5rem; }
+.upperbar .social a { color: black; }
+/*Start of Navbar*/
+.navbar span { color: #ff4b3e; }
+
+.navbar-brand { font-size: 1.8rem; }
+.navbar-light .navbar-nav .nav-link { color: #3d3d42; }
+.navbar-light .navbar-nav .nav-link:hover { color: #1e1e24; }
+/*Start of Header*/
+.header { background: url(../img/03.jpg) no-repeat center; background-size: cover; height: 100vh; position: relative; }
+.header .brand { margin: 11rem 1rem auto; color: white; }
+.header .brand span { color: #ff4b3e; }
+.header .brand .design { color: #807270; }
+/*Start why section*/
+.jumbotron { margin-bottom: 0; }
+.jumbotron h1 { text-transform: uppercase; }
+/*Start of pricing*/
+.pricing { background-color: #1e1e24; text-transform: uppercase; padding: 6rem; }
+.pricing .textPricing h2 { color: white; }
+.pricing .textPricing p { color: white; margin-bottom: 4rem; }
+.headPricing { margin-top: 57px; background-color: #241d1d; color: white; padding: 0.7rem; font-size: 20px; border-bottom: 1px solid white; }
+.midPricing { background-color: #241d1d; color: white; padding: 0.7rem; font-size: 20px; border-bottom: 1px solid white; }
+.midprice { font-size: 3.8rem; color: white; background-color: #241d1d; border-bottom: 4px solid #ff4b3e; font-style: oblique; font-weight: bold; }
+.midprice p { font-size: small; margin: 0 auto; }
+.midprice button { background-color: #ff4b3e; font-size: 1rem; width: 100%; padding: 15px; color: white; border: none; }
+.price { font-size: 4rem; color: white; background-color: #241d1d; border-bottom: 4px solid #ff4b3e; font-style: oblique; font-weight: bold; }
+.price p { font-size: small; }
+.infoPrice ul { list-style: none; background-color: white; }
+.infoPrice li { font-size: 1.1rem; font-weight: lighter; margin-right: 2.1rem; border-bottom: 1px solid #ccc; }
+/*End of pricing*/
+/*Start of Coustomers*/
+.testimun ul{top:0;left:0;width:100%;height:100vh;background-color:#ccc;margin:0;padding:0;overflow:hidden}
+.testimun ul li{list-style:none;position:relative;width:20%;height:100%;border-right:1px solid #000;float:left;box-sizing:border-box;transition:all .6s ease-in-out;text-align:center;overflow:hidden}
+.testimun ul li:nth-child(1){background:url(../img/p2.jpg);-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-position:left;overflow:hidden}
+.testimun ul li:nth-child(2){background:url(../img/p3.jpg);-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-position:left;overflow:hidden}
+.testimun ul li:nth-child(3){background:url(../img/p1.jpg);-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-position:center;overflow:hidden}
+.testimun ul li:nth-child(4){background:url(../img/p5.jpg);-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-position:center;overflow:hidden}
+.testimun ul li:nth-child(5){background:url(../img/p6.jpg);-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-position:center;overflow:hidden}
+.testimun ul:hover li{width:15%}
+.testimun ul li:hover{width:40%}
+.testimun ul li .content{bottom:-100%;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.7);box-sizing:border-box;color:#fff;opacity:0}
+.testimun ul li:hover .content{bottom:40%;transition:all .6s ease-in-out;transition-delay:.6;opacity:1}
+.testimun .content h2{padding-top:200px;font-family:Oswald,sans-serif;color:#d9d8d7}
+.testimun .content span{margin-top:25px;color:#bbb7bc}
+.testimun .content p{margin-top:25px;color:#a7a4ab;line-height:1.6;font-size:16px;width:80%;margin:20px auto 35px}
+.testimun .content button{background:0 0;padding:15px 0;width:150px;font-size:14px;border:1px solid #ff4b3e;margin:0 8px;border-radius:5px;color:#fff;margin-bottom:10px}
+.testimun .content button:hover{background:linear-gradient(-45deg,#ff4b3e,#3d3d42);color:#bbb7bc;border:none}
+/*Start of carousel*/
+.carousel-inner { position: relative; }
+.carousel-inner .overlay { z-index: 1; }
+.carousel-inner .carousel-caption { bottom: 17rem; }
+/*Start of form section*/
+.signup { background-color: #e9ecef; }
+.signup p { color: black; }
+.signup .Message{margin-top: 2rem; margin-bottom: 2rem;}
+.signup .Message input { width: 100%; padding: 3rem; }
+.signup .form { background-color: white; margin-top: 2rem; margin-bottom: 2rem; }
+.signup .form h2 { color: white; font-size: 20px; text-align: center; padding: 10px; background-color: #241d1d; }
+.signup .form input { border: none; border-radius: 0; box-shadow: 0; border-bottom: 1px #ccc solid; margin-bottom: 2rem; margin-left: 2.9rem; }
+.signup .form .name { margin-top: 1.5rem; }
+.signup button { width: 100%; }
+/*Start of footer*/
+.footer { background-color: #1e1e24; color: white; }
+.footer .social a { color: white; letter-spacing: 8px; font-size: 2rem; }
+/*Media Query*/
+@media (max-width: 767px) { .upperbar p { font-size: 0.8rem; text-align: center; }
+  .upperbar .social { font-size: 1rem; }
+  .brand { text-align: center; }
+  .pricing { padding: 0; }
+  .display-4 {font-size: 2.5rem;}
+  .card { width: 100%; }
+  .testimun .content h2{padding-top:0}
+  .testimun .content button{width:100px}
+  .testimun ul li:nth-child(1){background-position:center}
+  .testimun ul li:nth-child(2){background-position:center}
+  .testimun ul li:nth-child(3){background-position:center}
+  .testimun ul li:nth-child(4){background-position:center}
+  .testimun ul li:nth-child(5){background-position:center}
+}
+/*Classes to extended*/
+.header .overlay, .carousel-inner .overlay { position: absolute; width: 100%; height: 100%; top: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.4); }
+.loremipsum, .pricing .textPricing p { font-size: 12px; font-weight: lighter; }
+hr { border: 0; border-top-color: currentcolor; border-top-style: none; border-top-width: 0px; border-top: 4px solid #ff4b3e; width: 3rem; }
+button { background-color: #ff4b3e; color: white; border: none; padding: 0.5rem; margin-top: 1rem; border-radius: 10%; }
+button:hover { background-color: #9f251c; transition: all 0.4s ease-in-out; }
